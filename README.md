@@ -14,10 +14,10 @@ After saving the repository, open the plugin catalog, select **Dynamic Home**, i
 
 ## Compatibility
 
-- Plugin version: `1.0.1.3`
+- Plugin version: `1.0.1.4`
 - Jellyfin ABI: `10.11.0.0` and compatible Jellyfin 10.11 patch releases
-- Package SHA-256: `7084f9db5dd57ce1b06263381a9c2ef2353e080d7c6dbb56929d933f15c07bad`
+- Package SHA-256: `3aa427cc7dd25b44fe80437ad89bce13bc6ef436c3fff09cec0e0ce1b586b9d4`
 
 ## Jellyfin Web integration
 
-Version `1.0.1.3` includes a self-contained browser client compiled against the Jellyfin `10.11.0` ABI. After installation and a Jellyfin restart, the plugin injects this client into the served HTML response without modifying or replacing Jellyfin Web files. It migrates the former eight-row default to 20 and takes precedence over stale legacy Dynamic Home web sections. A hard browser refresh may be required after upgrading from an earlier build.
+Version `1.0.1.4` includes a self-contained browser client compiled against the Jellyfin `10.11.0` ABI. After installation and a Jellyfin restart, the plugin injects this client into the served HTML response without modifying or replacing Jellyfin Web files. It migrates the former eight-row default to 20, resets only unversioned legacy user exclusions, and takes precedence over stale legacy Dynamic Home web sections. Newly saved user choices remain persistent.
