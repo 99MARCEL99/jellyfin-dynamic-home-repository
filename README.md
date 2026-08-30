@@ -14,12 +14,10 @@ After saving the repository, open the plugin catalog, select **Dynamic Home**, i
 
 ## Compatibility
 
-- Plugin version: `1.0.0.0`
+- Plugin version: `1.0.1.0`
 - Jellyfin ABI: `10.11.0.0` and compatible Jellyfin 10.11 patch releases
-- Package SHA-256: `813c0bdf4b6e6f63e1c358e532928542d8a51b70b1b4b4bcc95eae41ae90023d`
+- Package SHA-256: `1f123c74ccb05cded508c9e9cf1d354864652f64d006743183643112b0dc7fef`
 
 ## Jellyfin Web integration
 
-The catalog installs the server plugin. The custom Dynamic Home rows currently also require the matching Jellyfin Web integration. Jellyfin's plugin catalog does not install or replace Jellyfin Web files. Without that integration, the plugin and its API are installed, but the additional rows are not rendered on the home screen.
-
-The source and version-specific integration patches are maintained separately in the private development repository.
+Version `1.0.1.0` includes a self-contained browser client. After installation and a Jellyfin restart, the plugin injects this client into the served HTML response without modifying or replacing Jellyfin Web files. A hard browser refresh may be required after upgrading from `1.0.0.0`.
