@@ -7,7 +7,7 @@ This public repository distributes the **Dynamic Home** server plugin for Jellyf
 Add the following URL under **Dashboard → Plugins → Repositories**:
 
 ```text
-https://raw.githubusercontent.com/99MARCEL99/jellyfin-dynamic-home-repository/main/manifest.json
+https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/raw/refs/heads/main/manifest.json
 ```
 
 After saving the repository, open the plugin catalog, select **Dynamic Home**, install it and restart Jellyfin.
