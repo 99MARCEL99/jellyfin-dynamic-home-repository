@@ -9,12 +9,12 @@
     "imageUrl": "https://raw.githubusercontent.com/99MARCEL99/jellyfin-dynamic-home-repository/main/dynamic-home-plugin.png",
     "versions": [
       {
-        "version": "1.0.1.1",
-        "changelog": "Self-installing browser client compiled against the Jellyfin 10.11.0 ABI. Installs the complete Dynamic Home experience without a separately patched Jellyfin Web build.",
+        "version": "1.0.1.2",
+        "changelog": "Shows all enabled Dynamic Home sections by raising the installation default to 20 rows and migrating the former eight-row default once. Explicit custom limits are preserved.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.1/Jellyfin.Plugin.DynamicHome-1.0.1.1.zip",
-        "checksum": "e39df9f27c1a96073769b64c5bcc1381",
-        "timestamp": "2026-08-30T10:11:49Z"
+        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.2/Jellyfin.Plugin.DynamicHome-1.0.1.2.zip",
+        "checksum": "dcec11f2abbabd1ecee97cc027250fae",
+        "timestamp": "2026-08-30T10:32:04Z"
       }
     ]
   }
