@@ -14,10 +14,10 @@ After saving the repository, open the plugin catalog, select **Dynamic Home**, i
 
 ## Compatibility
 
-- Plugin version: `1.0.1.5`
+- Plugin version: `1.0.1.6`
 - Jellyfin ABI: `10.11.0.0` and compatible Jellyfin 10.11 patch releases
-- Package SHA-256: `b86ff90e97f6f3fea08f4a28c9e52962068dc8931421d6708879f713e2a9924d`
+- Package SHA-256: `8ac0dd886417feace754f13fe8b854a592f3d8bffbc2199e46a641d618775681`
 
 ## Jellyfin Web integration
 
-Version `1.0.1.5` includes a self-contained browser client compiled against the Jellyfin `10.11.0` ABI. After installation and a Jellyfin restart, the plugin injects this client into the served HTML response without modifying or replacing Jellyfin Web files. It keeps every enabled dynamic category populated with permission-filtered fallback titles when specialized matching is empty, while series categories use complete series only.
+Version `1.0.1.6` includes a self-contained browser client compiled against the Jellyfin `10.11.0` ABI. After installation and a Jellyfin restart, the plugin injects this client into the served HTML response without modifying or replacing Jellyfin Web files. Enabled recommendation rows target at least ten permission-filtered titles; the weekly ranking is now a Top 10 and fills missing activity positions with rotating movies or series.
