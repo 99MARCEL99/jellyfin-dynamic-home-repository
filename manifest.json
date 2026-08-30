@@ -9,12 +9,12 @@
     "imageUrl": "https://raw.githubusercontent.com/99MARCEL99/jellyfin-dynamic-home-repository/main/dynamic-home-plugin.png",
     "versions": [
       {
-        "version": "1.0.1.4",
-        "changelog": "Migrates legacy per-user section exclusions that could leave only five rows visible despite enabled admin features. User order is retained, new choices remain persistent, and the client script now uses no-store caching.",
+        "version": "1.0.1.5",
+        "changelog": "Keeps every enabled dynamic category populated. If specialized matching has no results, it receives at least ten deterministic, permission-filtered library titles; series fallbacks use complete series only.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.4/Jellyfin.Plugin.DynamicHome-1.0.1.4.zip",
-        "checksum": "4fc7bcb43313634282557d2f690358de",
-        "timestamp": "2026-08-30T18:50:54Z"
+        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.5/Jellyfin.Plugin.DynamicHome-1.0.1.5.zip",
+        "checksum": "3308b6b1969438cc2ce3edbc817bb920",
+        "timestamp": "2026-08-30T19:10:05Z"
       }
     ]
   }
