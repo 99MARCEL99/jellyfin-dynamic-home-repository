@@ -15,7 +15,7 @@ After saving the repository, open the plugin catalog, select **Dynamic Home**, i
 ## Compatibility
 
 - Plugin version: `1.0.0.0`
-- Jellyfin ABI: `10.11.6.0` and compatible Jellyfin 10.11 patch releases
+- Jellyfin ABI: `10.11.0.0` and compatible Jellyfin 10.11 patch releases
 - Package SHA-256: `813c0bdf4b6e6f63e1c358e532928542d8a51b70b1b4b4bcc95eae41ae90023d`
 
 ## Jellyfin Web integration
