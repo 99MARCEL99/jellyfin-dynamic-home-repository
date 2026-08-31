@@ -14,10 +14,10 @@ After saving the repository, open the plugin catalog, select **Dynamic Home**, i
 
 ## Compatibility
 
-- Plugin version: `1.0.1.7`
+- Plugin version: `1.0.1.8`
 - Jellyfin ABI: `10.11.0.0` and compatible Jellyfin 10.11 patch releases
-- Package SHA-256: `52df9b8cfac3a1d3902b7b01397de87869031671824bde4f4cdacaf41af2346d`
+- Package SHA-256: `de36ded126a4b09584a5aff35212740da16a705da2e34bd0ab3a6d71be72fa16`
 
 ## Jellyfin Web integration
 
-Version `1.0.1.7` includes a self-contained browser client compiled against the Jellyfin `10.11.0` ABI. After installation and a Jellyfin restart, the plugin injects this client into the served HTML response without modifying or replacing Jellyfin Web files. Explicitly enabled recommendation rows are no longer truncated by the global row target or emptied by cooldown and keep their ten-item minimum when enough media are available.
+Version `1.0.1.8` includes a self-contained browser client compiled against the Jellyfin `10.11.0` ABI. After installation and a Jellyfin restart, the plugin injects this client into the served HTML response without modifying or replacing Jellyfin Web files. The home customization control is anchored directly below the banner and remains the first plugin element when the banner is disabled.
