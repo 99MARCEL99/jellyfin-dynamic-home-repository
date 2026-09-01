@@ -9,12 +9,12 @@
     "imageUrl": "https://raw.githubusercontent.com/99MARCEL99/jellyfin-dynamic-home-repository/main/dynamic-home-plugin.png",
     "versions": [
       {
-        "version": "1.0.1.13",
-        "changelog": "Self-heals the standalone home client after rapid route changes or temporary request failures, preserves queued mounts, and disables stale HTML shell caching so Dynamic Home no longer appears only intermittently.",
+        "version": "1.0.1.14",
+        "changelog": "Renders My Media before expensive recommendations, restores completed rows immediately on home revisits, selects Jellyfin's visible SPA container, and lazy-loads offscreen posters.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.13/Jellyfin.Plugin.DynamicHome-1.0.1.13.zip",
-        "checksum": "bf9a69d80bb9783aaee4db5829f845d2",
-        "timestamp": "2026-09-01T20:33:51Z"
+        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.14/Jellyfin.Plugin.DynamicHome-1.0.1.14.zip",
+        "checksum": "cca2f194472f3e1146e5842689bc1349",
+        "timestamp": "2026-09-01T21:10:08Z"
       }
     ]
   }

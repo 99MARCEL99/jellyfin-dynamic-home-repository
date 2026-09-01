@@ -14,10 +14,10 @@ After saving the repository, open the plugin catalog, select **Dynamic Home**, i
 
 ## Compatibility
 
-- Plugin version: `1.0.1.13`
+- Plugin version: `1.0.1.14`
 - Jellyfin ABI: `10.11.0.0` and compatible Jellyfin 10.11 patch releases
-- Package SHA-256: `ef06b0456ffaf87abd19ffbc693209f77eb2fc634906a874b32c043661f0618a`
+- Package SHA-256: `77f7dc187b0ac6bf82a95e6566dfe825dbf216076402820b65b80167e29f4ced`
 
 ## Jellyfin Web integration
 
-Version `1.0.1.13` includes a self-contained, self-healing browser client compiled against the Jellyfin `10.11.0` ABI. After installation and a Jellyfin restart, the plugin injects this client into a non-cacheable HTML response without modifying or replacing Jellyfin Web files. It preserves mounts requested during navigation, retries temporary failures, applies every admin section switch and exits cleanly when Dynamic Home is globally disabled.
+Version `1.0.1.14` includes a self-contained, self-healing browser client compiled against the Jellyfin `10.11.0` ABI. After installation and a Jellyfin restart, the plugin injects this client into a non-cacheable HTML response without modifying or replacing Jellyfin Web files. It shows My Media before expensive recommendation generation, restores completed rows on SPA revisits, targets Jellyfin's visible home container and lazy-loads offscreen posters.
