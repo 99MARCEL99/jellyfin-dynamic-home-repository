@@ -14,10 +14,10 @@ After saving the repository, open the plugin catalog, select **Dynamic Home**, i
 
 ## Compatibility
 
-- Plugin version: `1.0.1.16`
+- Plugin version: `1.0.1.17`
 - Jellyfin ABI: `10.11.0.0` and compatible Jellyfin 10.11 patch releases
-- Package SHA-256: `8024d68168abef77eea6be62527fb52a0d8b8b50f6220f883b9bacee61a46527`
+- Package SHA-256: `3eedc4865fecdd73f96ff405c0843526347b8bada78012f2f4fe97e828d4bab9`
 
 ## Jellyfin Web integration
 
-Version `1.0.1.16` includes a self-contained, self-healing browser client compiled against the Jellyfin `10.11.0` ABI. After installation and a Jellyfin restart, the plugin injects this client into a non-cacheable HTML response without modifying or replacing Jellyfin Web files. Episode cards in Continue Watching & Next Up use their normal series poster while retaining the episode target, progress, and deduplication behavior.
+Version `1.0.1.17` includes a self-contained, self-healing browser client compiled against the Jellyfin `10.11.0` ABI. After installation and a Jellyfin restart, the plugin injects this client into a non-cacheable HTML response without modifying or replacing Jellyfin Web files. Surprise starts as a compact button and opens its responsive filters in an overlay, so following rows stay in place; a second click or Escape closes it again.

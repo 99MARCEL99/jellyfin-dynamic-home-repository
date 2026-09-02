@@ -9,12 +9,12 @@
     "imageUrl": "https://raw.githubusercontent.com/99MARCEL99/jellyfin-dynamic-home-repository/main/dynamic-home-plugin.png",
     "versions": [
       {
-        "version": "1.0.1.16",
-        "changelog": "Uses normal series primary artwork for episode entries in Continue Watching and Next Up while preserving episode progress, deduplication, and navigation.",
+        "version": "1.0.1.17",
+        "changelog": "Turns Surprise into a compact accessible toggle whose responsive filter panel overlays following rows and collapses on a second click or Escape.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.16/Jellyfin.Plugin.DynamicHome-1.0.1.16.zip",
-        "checksum": "e72cd20ba87ab8b1d0765bda9ee2fbc1",
-        "timestamp": "2026-09-02T04:24:34Z"
+        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.17/Jellyfin.Plugin.DynamicHome-1.0.1.17.zip",
+        "checksum": "190466ed8644dcab4dd9b84e42dcca1a",
+        "timestamp": "2026-09-02T05:19:34Z"
       }
     ]
   }
