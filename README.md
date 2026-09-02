@@ -14,10 +14,10 @@ After saving the repository, open the plugin catalog, select **Dynamic Home**, i
 
 ## Compatibility
 
-- Plugin version: `1.0.1.15`
+- Plugin version: `1.0.1.16`
 - Jellyfin ABI: `10.11.0.0` and compatible Jellyfin 10.11 patch releases
-- Package SHA-256: `668fca086221dc1e54440092377a8a1f0ac37c96b05f73c74b806f07433c2013`
+- Package SHA-256: `8024d68168abef77eea6be62527fb52a0d8b8b50f6220f883b9bacee61a46527`
 
 ## Jellyfin Web integration
 
-Version `1.0.1.15` includes a self-contained, self-healing browser client compiled against the Jellyfin `10.11.0` ABI. After installation and a Jellyfin restart, the plugin injects this client into a non-cacheable HTML response without modifying or replacing Jellyfin Web files. It shows My Media first, then whichever completed row group is ready, restores completed rows on SPA revisits, targets Jellyfin's visible home container and lazy-loads offscreen posters.
+Version `1.0.1.16` includes a self-contained, self-healing browser client compiled against the Jellyfin `10.11.0` ABI. After installation and a Jellyfin restart, the plugin injects this client into a non-cacheable HTML response without modifying or replacing Jellyfin Web files. Episode cards in Continue Watching & Next Up use their normal series poster while retaining the episode target, progress, and deduplication behavior.
