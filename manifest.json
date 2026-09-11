@@ -9,12 +9,12 @@
     "imageUrl": "https://raw.githubusercontent.com/99MARCEL99/jellyfin-dynamic-home-repository/main/dynamic-home-plugin.png",
     "versions": [
       {
-        "version": "1.0.1.18",
-        "changelog": "Speeds up mobile startup with parallel critical requests, configuration-aware native row limits, responsive images, viewport-driven row hydration, incremental favorite rendering, and reduced remount churn.",
+        "version": "1.0.1.19",
+        "changelog": "Shows dynamic recommendations as soon as their feed is ready while slow Jellyfin progress requests finish independently, preserving the mobile startup and incremental-rendering improvements from 1.0.1.18.",
         "targetAbi": "10.11.0.0",
-        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.18/Jellyfin.Plugin.DynamicHome-1.0.1.18.zip",
-        "checksum": "c3c5ff5d06d03753e37ffe40246ef369",
-        "timestamp": "2026-09-11T13:39:10Z"
+        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.19/Jellyfin.Plugin.DynamicHome-1.0.1.19.zip",
+        "checksum": "f020b1128647fed78046ba685e39198f",
+        "timestamp": "2026-09-11T20:00:10Z"
       }
     ]
   }
