@@ -10,7 +10,7 @@
     "versions": [
       {
         "version": "1.0.1.21",
-        "changelog": "Refreshes continue-watching progress after returning home and preserves resume/next-up entries. Catalog test package pending Dev acceptance.",
+        "changelog": "Refreshes continue-watching after returning home, preserves resume and next-up entries without a second combined cutoff, and prefers the most recently resumed episode per series. Verified by normal Dev catalog installation, real stop/resume and next-episode playback tests, and mobile layout acceptance.",
         "targetAbi": "10.11.0.0",
         "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.21/Jellyfin.Plugin.DynamicHome-1.0.1.21.zip",
         "checksum": "43a23e59c9b149c8a936d68ef8e32eb2",
