@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/99MARCEL99/jellyfin-dynamic-home-repository/main/dynamic-home-plugin.png",
     "versions": [
       {
+        "version": "1.0.1.24",
+        "changelog": "Adds Jellyfin 12.1 compatibility with .NET 10 and the Jellyfin 12.1 plugin APIs. Test build validated with 124/124 .NET tests and 12/12 JavaScript tests before normal Dev catalog installation.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.24/Jellyfin.Plugin.DynamicHome-1.0.1.24.zip",
+        "checksum": "d455205e3a0d9fcaf840db6edffa36e4",
+        "timestamp": "2026-09-27T12:39:00Z"
+      },
+      {
         "version": "1.0.1.23",
         "changelog": "Stabilizes rapid mobile touch swipes with complete row membership before interaction, eager mobile artwork, and progress refreshes deferred until scrolling stops. Verified through normal Jellyfin Dev catalog installation at 390×844: all 22 sections, 64 favorites and 34 continue-watching cards remained intact after rapid alternating swipes.",
         "targetAbi": "10.11.0.0",
