@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/99MARCEL99/jellyfin-dynamic-home-repository/main/dynamic-home-plugin.png",
     "versions": [
       {
+        "version": "1.0.1.25",
+        "changelog": "Uses Jellyfin's native section, card, text, progress, indicator and navigation classes so Dynamic Home rows follow the active theme and Jellyfin's responsive card sizing. Preserves complete row membership during rapid mobile touch swipes.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.25/Jellyfin.Plugin.DynamicHome-1.0.1.25.zip",
+        "checksum": "cc193fa616561a8e762c8ca62c893a15",
+        "timestamp": "2026-09-27T18:37:00Z"
+      },
+      {
         "version": "1.0.1.24",
         "changelog": "Adds Jellyfin 12.1 compatibility with .NET 10 and the Jellyfin 12.1 plugin APIs. Installed through the normal Dev catalog and accepted at 320 px, 390 px and desktop with all 22 sections intact.",
         "targetAbi": "12.1.0.0",
