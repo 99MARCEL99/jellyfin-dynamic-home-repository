@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/99MARCEL99/jellyfin-dynamic-home-repository/main/dynamic-home-plugin.png",
     "versions": [
       {
+        "version": "1.0.1.26",
+        "changelog": "Matches Jellyfin's complete native home-row DOM and custom scroller, removes the plugin-wide box-model reset, and adds native card text spacing and hover controls so built-in and custom themes render Dynamic Home like original Jellyfin rows. Preserves complete row membership during rapid touch swipes.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.26/Jellyfin.Plugin.DynamicHome-1.0.1.26.zip",
+        "checksum": "a668ca1db41b366f4a803e2dba8d5e9c",
+        "timestamp": "2026-09-28T05:02:05Z"
+      },
+      {
         "version": "1.0.1.25",
         "changelog": "Uses Jellyfin's native section, card, text, progress, indicator and navigation classes so Dynamic Home rows follow the active theme and Jellyfin's responsive card sizing. Preserves complete row membership during rapid mobile touch swipes.",
         "targetAbi": "12.1.0.0",
