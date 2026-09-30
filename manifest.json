@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/99MARCEL99/jellyfin-dynamic-home-repository/main/dynamic-home-plugin.png",
     "versions": [
       {
+        "version": "1.0.1.29",
+        "changelog": "Restores resumable episodes that Jellyfin omits from the capped Resume response when LastPlayedDate is missing, places recovered progress at the front of Weiterschauen & Als Nächstes, and invalidates the prior instant snapshot so the corrected order appears immediately.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.29/Jellyfin.Plugin.DynamicHome-1.0.1.29.zip",
+        "checksum": "2a9647506fe66a472be5acc7d27218cd",
+        "timestamp": "2026-09-30T16:12:28Z"
+      },
+      {
         "version": "1.0.1.28",
         "changelog": "Keeps Jellyfin's native home rows hidden after late background refreshes, eliminating duplicate rows and extra layout work while retaining the 80 ms user-bound instant cache, background refreshes, native Jellyfin row structure, and touch-safe scrolling.",
         "targetAbi": "12.1.0.0",
