@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/99MARCEL99/jellyfin-dynamic-home-repository/main/dynamic-home-plugin.png",
     "versions": [
       {
+        "version": "1.0.1.31",
+        "changelog": "Restores the complete home DOM after late Jellyfin route commits while retaining the 1.0.1.30 bootstrap snapshot, idle image loading, row reconciliation and concurrent feed generation improvements.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.31/Jellyfin.Plugin.DynamicHome-1.0.1.31.zip",
+        "checksum": "0ab59898dd7c59ab13aaaf436d6042a4",
+        "timestamp": "2026-10-01T16:49:50Z"
+      },
+      {
         "version": "1.0.1.30",
         "changelog": "Restores the complete home DOM in one operation, adds compact per-user SQLite bootstrap snapshots with silent background refresh and ETag support, loads artwork around the viewport in idle batches, retains unchanged rows and scroll positions, and generates up to four recommendation rows concurrently.",
         "targetAbi": "12.1.0.0",
