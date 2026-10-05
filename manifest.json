@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/99MARCEL99/jellyfin-dynamic-home-repository/main/dynamic-home-plugin.png",
     "versions": [
       {
+        "version": "1.0.1.34",
+        "changelog": "Keeps every row scroll control reliable after Jellyfin upgrades or reattaches its legacy customized elements, synchronizes previous/next state after clicks, touch gestures and DOM parking, and preserves safe-area-aware row spacing.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.34/Jellyfin.Plugin.DynamicHome-1.0.1.34.zip",
+        "checksum": "2501f60f2d63d37bbb5520ffac21b94b",
+        "timestamp": "2026-10-05T13:13:17Z"
+      },
+      {
         "version": "1.0.1.33",
         "changelog": "Makes every row scroll control appear deterministically, keeps previous/next state synchronized after clicks, touch gestures and DOM parking, and preserves Jellyfin safe-area-aware left and right spacing.",
         "targetAbi": "12.1.0.0",
