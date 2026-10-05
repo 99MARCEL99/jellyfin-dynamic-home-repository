@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/99MARCEL99/jellyfin-dynamic-home-repository/main/dynamic-home-plugin.png",
     "versions": [
       {
+        "version": "1.0.1.33",
+        "changelog": "Makes every row scroll control appear deterministically, keeps previous/next state synchronized after clicks, touch gestures and DOM parking, and preserves Jellyfin safe-area-aware left and right spacing.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.33/Jellyfin.Plugin.DynamicHome-1.0.1.33.zip",
+        "checksum": "67c85436926d7ef76d9eb89c8a42b56e",
+        "timestamp": "2026-10-05T12:45:33Z"
+      },
+      {
         "version": "1.0.1.32",
         "changelog": "Fixes Jellyfin 12.1's playback overlay TypeError by preserving the native pause/resume and scroller lifecycle when customized built-in home-row elements are not upgraded.",
         "targetAbi": "12.1.0.0",
@@ -109,7 +117,7 @@
         "changelog": "Responsive layout: consistent 16:9 library tiles and 2:3 posters, reliable card spacing and narrow-screen settings. Verified through normal Jellyfin Dev installation and desktop/mobile acceptance.",
         "targetAbi": "10.11.0.0",
         "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.20/Jellyfin.Plugin.DynamicHome-1.0.1.20.zip",
-        "checksum": "4c06d1223162ee388cc59febed9389b4",
+        "checksum": "43a23e59c9b149c8a936d68ef8e32eb2",
         "timestamp": "2026-09-15T21:37:23Z"
       },
       {
