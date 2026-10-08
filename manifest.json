@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/99MARCEL99/jellyfin-dynamic-home-repository/main/dynamic-home-plugin.png",
     "versions": [
       {
+        "version": "1.0.1.36",
+        "changelog": "Removes Fast geschafft, Lange nicht weitergeschaut, Angefangen, aber vergessen? and Kurze Serien für zwischendurch, restores Hidden Gems in episode-heavy libraries, migrates old section preferences, and explains enabled sections with no matching content or a MediaBar-owned banner.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.36/Jellyfin.Plugin.DynamicHome-1.0.1.36.zip",
+        "checksum": "b017585e126ae6e9ef05dc8d53a7af94",
+        "timestamp": "2026-10-08T22:27:54Z"
+      },
+      {
         "version": "1.0.1.35",
         "changelog": "Ensures Continue Watching keeps the furthest season and episode per series even when an older episode was played more recently, restores native play actions by attaching completed rows atomically, and prevents Dynamic Home hero content from overlapping MediaBar banners.",
         "targetAbi": "12.1.0.0",
