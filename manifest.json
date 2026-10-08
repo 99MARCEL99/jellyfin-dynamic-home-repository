@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/99MARCEL99/jellyfin-dynamic-home-repository/main/dynamic-home-plugin.png",
     "versions": [
       {
+        "version": "1.0.1.35",
+        "changelog": "Ensures Continue Watching keeps the furthest season and episode per series even when an older episode was played more recently, restores native play actions by attaching completed rows atomically, and prevents Dynamic Home hero content from overlapping MediaBar banners.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.35/Jellyfin.Plugin.DynamicHome-1.0.1.35.zip",
+        "checksum": "702316e8bf3943192b4477fd4c362ca8",
+        "timestamp": "2026-10-08T13:28:32Z"
+      },
+      {
         "version": "1.0.1.34",
         "changelog": "Keeps every row scroll control reliable after Jellyfin upgrades or reattaches its legacy customized elements, synchronizes previous/next state after clicks, touch gestures and DOM parking, and preserves safe-area-aware row spacing.",
         "targetAbi": "12.1.0.0",
