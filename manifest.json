@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/99MARCEL99/jellyfin-dynamic-home-repository/main/dynamic-home-plugin.png",
     "versions": [
       {
+        "version": "1.0.1.37",
+        "changelog": "Fixes the full audit of 1.0.1.36: one server-side \"Continue watching & Next up\" source, event-driven freshness for watched, favorite and progress changes, recommendations over the whole visible library, no duplicates across rows, no watched or started titles in unwatched rows, consent-based shared recommendations, a privacy threshold for Top 10, visible native Jellyfin sections, kept scroll positions, server-side settings validation, smaller payloads and faster cold starts. Uninstalling now gives every user back the Jellyfin home sections they had switched off.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.37/Jellyfin.Plugin.DynamicHome-1.0.1.37.zip",
+        "checksum": "b44ec5c50fb5c41f98988e8a23cac26b",
+        "timestamp": "2026-10-14T17:57:02Z"
+      },
+      {
         "version": "1.0.1.36",
         "changelog": "Removes Fast geschafft, Lange nicht weitergeschaut, Angefangen, aber vergessen? and Kurze Serien für zwischendurch, restores Hidden Gems in episode-heavy libraries, migrates old section preferences, and explains enabled sections with no matching content or a MediaBar-owned banner.",
         "targetAbi": "12.1.0.0",
