@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/99MARCEL99/jellyfin-dynamic-home-repository/main/dynamic-home-plugin.png",
     "versions": [
       {
+        "version": "1.0.1.38",
+        "changelog": "\"Top 10 diese Woche\" now shows the same ranking for every user, built from what all users really watched: at least ten minutes at a stretch without seeking, or really played to the end (decided from position and runtime, not from Jellyfin's completion flag). Titles need the configured number of different viewers; one's own viewing no longer adds personal entries. The ranking is computed once per rotation for the whole server and stored, so a restart shows the same list. Only movies and episodes are recorded; the time really played and the longest stretch are measured from Jellyfin's progress reports, also when a session ends without a stop. Start and stop are matched without relying on Jellyfin's play session id. Titles from libraries a user cannot access are skipped for that user; libraries only hidden from \"My Media\" stay included. Deleted titles and other media take no places in the ranking. A feed with a failed row is cached for two minutes only.",
+        "targetAbi": "12.1.0.0",
+        "sourceUrl": "https://github.com/99MARCEL99/jellyfin-dynamic-home-repository/releases/download/v1.0.1.38/Jellyfin.Plugin.DynamicHome-1.0.1.38.zip",
+        "checksum": "aaf229bad45b39d64a212307c332bee4",
+        "timestamp": "2026-10-20T21:08:27Z"
+      },
+      {
         "version": "1.0.1.37",
         "changelog": "Fixes the full audit of 1.0.1.36: one server-side \"Continue watching & Next up\" source, event-driven freshness for watched, favorite and progress changes, recommendations over the whole visible library, no duplicates across rows, no watched or started titles in unwatched rows, consent-based shared recommendations, a privacy threshold for Top 10, visible native Jellyfin sections, kept scroll positions, server-side settings validation, smaller payloads and faster cold starts. Uninstalling now gives every user back the Jellyfin home sections they had switched off.",
         "targetAbi": "12.1.0.0",
